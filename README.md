@@ -26,13 +26,14 @@ You can try it out here: [Live Demo](https://aztra7.github.io/random-password-ge
 
 ## 📂 Project Structure
 
-├── index.html             # Main HTML file
-├── style.css              # All styling for the page
-├── main.js                # JS logic for password generation and copy function
-├── images/                # Icons used in the UI
-│   ├── copy.png
-│   └── generate.png
-└── README.md              # Project description and usage
+- `index.html` – Main HTML file  
+- `style.css` – All styling  
+- `main.js` – JS logic  
+- `images/`
+  - `copy.png`
+  - `generate.png`
+- `README.md`
+
 
 
 ## 📥 Installation
