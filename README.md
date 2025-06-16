@@ -2,8 +2,6 @@
 
 A simple and user-friendly web app to generate strong, secure, and customizable passwords.
 
-![Screenshot](preview.png) <!-- Add a real screenshot named preview.png -->
-
 ## 🚀 Features
 
 - Generate random passwords instantly
@@ -28,13 +26,13 @@ You can try it out here: [Live Demo](https://aztra7.github.io/random-password-ge
 
 ## 📂 Project Structure
 
-├── index.html
-├── style.css
-├── main.js
-├── images/
-│ ├── copy.png
-│ └── generate.png
-└── README.md
+├── index.html             # Main HTML file
+├── style.css              # All styling for the page
+├── main.js                # JS logic for password generation and copy function
+├── images/                # Icons used in the UI
+│   ├── copy.png
+│   └── generate.png
+└── README.md              # Project description and usage
 
 
 ## 📥 Installation
