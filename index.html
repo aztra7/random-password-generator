@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Random Password Generator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Generate a <br><span>Random Password</span></h1>
+
+    <div class="options">
+      <label>Password Length:
+        <input type="number" id="length" min="4" max="30" value="12">
+      </label>
+      <label><input type="checkbox" id="upper" checked> Uppercase</label>
+      <label><input type="checkbox" id="lower" checked> Lowercase</label>
+      <label><input type="checkbox" id="number" checked> Numbers</label>
+      <label><input type="checkbox" id="symbol" checked> Symbols</label>
+    </div>
+
+    <div class="display">
+      <input type="text" id="password" placeholder="Password" readonly>
+      <img onclick="copyPassword()" src="images/copy.png" alt="Copy Icon">
+    </div>
+
+    <button onclick="createPassword()">
+      <img src="images/generate.png" alt="Generate">Generate Password
+    </button>
+    <p id="copyMsg" style="margin-top:10px; color:#0f0; display:none;">✔ Password copied!</p>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
